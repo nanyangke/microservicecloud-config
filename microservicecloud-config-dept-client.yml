@@ -2,7 +2,7 @@ spring:
   profiles:
     active:
       - dev
-      
+
 ---
 
 server:
@@ -10,7 +10,7 @@ server:
 
 spring:
   profiles: dev
-  application:
+    application:
     name: microservicecloud-dept
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
@@ -44,7 +44,7 @@ server:
 
 spring:
   profiles: test
-  application:
+    application:
     name: microservicecloud-dept
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
